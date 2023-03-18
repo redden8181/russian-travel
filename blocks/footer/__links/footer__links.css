@@ -1,0 +1,27 @@
+.footer__links{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+}
+@media screen and (min-width : 425px) {
+    .footer__links {
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+      }
+}
+@media (min-width : 768px) {
+    .footer__links {
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+      }
+}
+@media (min-width : 1024px) {
+    .footer__links {
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+      }
+}

@@ -1,0 +1,27 @@
+.lead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  padding: 32px 0 64px;
+}
+@media screen and (min-width : 425px) {
+    .lead {
+        padding: 32px 0 88px;
+      }
+}
+@media (min-width : 768px) {
+    .lead {
+        padding: 32px 0 92px;
+      }
+}
+@media (min-width : 1024px) {
+    .lead {
+        padding: 32px 0 92px;
+      }
+}

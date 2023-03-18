@@ -1,0 +1,6 @@
+.header__lang-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 8px;
+}

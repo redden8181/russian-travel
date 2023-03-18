@@ -1,0 +1,23 @@
+.lead__caption {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 0;
+  padding: 8px 0 0 16px;
+	font-family: 'Inter',  'Arial', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+  font-size: 0.625rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+@media (min-width : 768px) {
+    .lead__caption {
+        padding: 8px 0 0 48px;
+      }
+}
+@media (min-width : 1024px) {
+    .lead__caption {
+        padding: 8px 0 0 148px;
+      }
+}

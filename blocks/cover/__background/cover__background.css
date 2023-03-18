@@ -1,0 +1,21 @@
+.cover__background {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+}
+@media screen and (min-width : 425px) {
+    .cover__background {
+        height: 480px;
+      }
+}
+@media (min-width : 768px) {
+    .cover__background {
+        height: 640px;
+      }
+}
+@media (min-width : 1024px) {
+    .cover__background {
+        width: 92.5%;
+        height: 740px;
+      }
+}

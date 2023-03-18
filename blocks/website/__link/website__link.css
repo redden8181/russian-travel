@@ -1,0 +1,14 @@
+.website__link {
+  margin-top: 12px;
+	font-family: 'Inter',  'Arial', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+  line-height: 1.22;
+  font-size: 1.125rem;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #fff;
+}
+.website__link:hover {
+  opacity: 80%;
+}
