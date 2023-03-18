@@ -1,4 +1,4 @@
-.website__link {
+.place__link {
   margin-top: 12px;
 	font-family: 'Inter',  'Arial', sans-serif;
 	font-style: normal;
@@ -9,6 +9,6 @@
           text-decoration-line: underline;
   color: #fff;
 }
-.website__link:hover {
+.place__link:hover {
   opacity: 80%;
 }
