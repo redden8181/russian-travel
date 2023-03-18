@@ -6,20 +6,20 @@
   font-size: 2rem;
   Line-height: 1.09;
 }
-@media screen and (min-width : 425px) {
+@media screen and (min-width: 425px) {
     .place__title {
         margin-bottom: 22px;
         font-size: 42px
       }
 }
-@media (min-width : 768px) {
+@media (min-width: 768px) {
     .place__title {
         margin-bottom: 22px;
         font-size: 72px;
         line-height: 76px;
       }
 }
-@media (min-width : 1024px) {
+@media (min-width: 1024px) {
     .place__title {
         margin-bottom: 22px;
         font-size: 72px;

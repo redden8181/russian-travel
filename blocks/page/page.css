@@ -10,19 +10,19 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 }
-@media screen and (min-width : 425px) {
+@media screen and (min-width: 425px) {
     .page {
         min-width: 425px;
         max-width: 767px;
       }
 }
-@media (min-width : 768px) {
+@media (min-width: 768px) {
     .page {
         min-width: 768px;
         max-width: 1024px;
       }
 }
-@media (min-width : 1024px) {
+@media (min-width: 1024px) {
     .page {
         min-width: 1024px;
         max-width: 1280px;

@@ -11,19 +11,19 @@
       -ms-flex-align: end;
           align-items: flex-end;
 }
-@media screen and (min-width : 425px) {
+@media screen and (min-width: 425px) {
     .header {
         width: 93.75%;
         padding: 28px 24px 16px;
       }
 }
-@media (min-width : 768px) {
+@media (min-width: 768px) {
     .header {
         width: 90.625%;
         padding: 28px 48px 16px;
       }
 }
-@media (min-width : 1024px) {
+@media (min-width: 1024px) {
     .header {
         width: 92.5%;
         padding: 28px 48px 24px;

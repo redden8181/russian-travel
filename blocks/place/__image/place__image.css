@@ -5,19 +5,19 @@
   height: 320px;
   background-size: cover;
 }
-@media screen and (min-width : 425px) {
+@media screen and (min-width: 425px) {
     .place__image {
         grid-row: span 2;
         height: 340px;
       }
 }
-@media (min-width : 768px) {
+@media (min-width: 768px) {
     .place__image {
         grid-row: span 2;
         height: 440px;
       }
 }
-@media (min-width : 1024px) {
+@media (min-width: 1024px) {
     .place__image {
         grid-row: span 2;
         height: 460px;
