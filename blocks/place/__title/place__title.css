@@ -4,12 +4,12 @@
 	font-family: 'Inter', 'Arial', sans-serif;
 	font-weight: 900;
   font-size: 2rem;
-  Line-height: 1.09;
+  line-height: 1.09;
 }
 @media screen and (min-width: 425px) {
     .place__title {
         margin-bottom: 22px;
-        font-size: 42px
+        font-size: 42px;
       }
 }
 @media (min-width: 768px) {
