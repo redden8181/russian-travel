@@ -8,6 +8,7 @@
 }
 @media screen and (min-width: 425px) {
     .cover {
+        margin: o;
         height: 480px;
         padding: 90px 0 88px;
       }
