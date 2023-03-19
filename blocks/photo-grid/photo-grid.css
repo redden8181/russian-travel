@@ -9,20 +9,23 @@
 }
 @media screen and (min-width: 425px) {
     .photo-grid {
+        -ms-grid-columns: 1fr 16px 1fr;
         grid-template-columns: 1fr 1fr;
         gap: 16px;
         padding: 88px 24px;
       }
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .photo-grid {
+        -ms-grid-columns: 1fr 14px 1fr 14px 1fr;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 14px;
         padding: 92px 48px;
       }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     .photo-grid {
+        -ms-grid-columns: 1fr 16px 1fr 16px 1fr 16px 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 16px;
         padding: 92px 48px;

@@ -15,13 +15,13 @@
         gap: 73px;
       }
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .places {
         padding: 0 48px;
         gap: 80px;
       }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     .places {
         padding: 0 148px;
         gap: 80px;

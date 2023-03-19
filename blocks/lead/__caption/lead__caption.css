@@ -3,20 +3,25 @@
       align-self: flex-start;
   margin: 0;
   padding: 8px 0 0 16px;
-	font-family: 'Inter',  'Arial', sans-serif;
-	font-style: normal;
-	font-weight: 400;
-  font-size: 0.625rem;
-  line-height: 1.4;
+  font-family: 'Inter',  'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 0.625%;
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 425px) {
+    .lead__caption {
+        padding: 8px 0 0 24px;
+      }
+}
+@media (min-width: 769px) {
     .lead__caption {
         padding: 8px 0 0 48px;
       }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     .lead__caption {
         padding: 8px 0 0 148px;
       }

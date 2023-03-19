@@ -1,6 +1,11 @@
 .cover {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   height: 200px;
   margin: 0 auto;
@@ -8,18 +13,17 @@
 }
 @media screen and (min-width: 425px) {
     .cover {
-        margin: o;
         height: 480px;
         padding: 90px 0 88px;
       }
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .cover {
         height: 640px;
         padding: 92px 0px;
       }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     .cover {
         width: 92.5%;
         height: 740px;

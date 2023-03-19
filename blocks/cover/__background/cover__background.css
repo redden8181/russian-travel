@@ -8,12 +8,12 @@
         height: 480px;
       }
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .cover__background {
         height: 640px;
       }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     .cover__background {
         width: 92.5%;
         height: 740px;

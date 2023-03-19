@@ -8,13 +8,13 @@
         width: 176px;
       }
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .header__logo {
         height: 52px;
         width: 176px;
       }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     .header__logo {
         height: 52px;
         width: 176px;

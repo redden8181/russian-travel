@@ -1,19 +1,19 @@
 .intro {
   margin: 0 auto;
   padding: 0 16px;
-  
+
 }
 @media screen and (min-width: 425px) {
     .intro {
         padding: 0 24px;
       }
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .intro {
-      padding: 0 286px 0 48px;
+        padding: 0 286px 0 48px;
       }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     .intro {
         padding: 0 442px 0 148px;
       }

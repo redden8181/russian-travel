@@ -1,9 +1,9 @@
 .header__lang-link {
   margin: 0 18px 0 0;
-	font-family: 'Inter',  'Arial', sans-serif;
-	font-style: normal;
-	font-weight: 400;
-  font-size: 1.125rem;
+  font-family: 'Inter',  'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
   line-height: 1.1;
   text-decoration: none;
   -webkit-text-decoration-line: underline;
@@ -17,19 +17,19 @@
 }
 @media screen and (min-width: 425px) {
     .header__lang-link {
-        font-size: 1.5rem;
+        font-size: 24px;
         line-height: 1.16;
       }
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .header__lang-link {
-        font-size: 1.5rem;
+        font-size: 24px;
         line-height: 1.16;
       }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     .header__lang-link {
-        font-size: 1.5rem;
+        font-size: 24px;
         line-height: 1.16;
       }
 }
