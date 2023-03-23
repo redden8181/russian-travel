@@ -9,6 +9,14 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  max-width: 1184px;
+  height: calc(100vw / 1.6);
+  max-height: 740px;
+  margin: 0 auto;
+  background-image: url(../../images/cover.jpg);
 
 }
 .cover:hover {
@@ -26,4 +34,9 @@
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
+}
+
+@media (min-width: 1280px) {
+  .cover__background {
+    }
 }

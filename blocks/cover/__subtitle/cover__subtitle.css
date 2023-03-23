@@ -6,14 +6,16 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
+  color: #fff;
 }
+
 @media screen and (min-width: 425px) {
     .cover__subtitle {
-        margin: 0 auto;
         font-size: 18px;
         line-height: 1.22;
       }
 }
+
 @media screen and (min-width: 768px) {
     .cover__subtitle {
         max-width: 360px;

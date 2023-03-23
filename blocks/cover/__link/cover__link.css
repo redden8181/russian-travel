@@ -1,4 +1,6 @@
 .cover__link {
+  display: flex;
+  flex-direction: column;
   position: relative;
   text-align: center;
   color: #FFFFFF;
