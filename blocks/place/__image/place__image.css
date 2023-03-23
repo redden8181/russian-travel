@@ -17,7 +17,7 @@
             grid-row-start: 2;
         -ms-grid-row-span: 1;
         grid-row-end: 3;
-        height: 340px
+        height: 340px;
       }
 }
 @media (min-width: 1024px) {

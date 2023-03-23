@@ -3,7 +3,7 @@
   padding:0 0 7px 5%;
   font-weight: 900;
   font-size: 32px;
-  Line-height: 1.09;
+  line-height: 1.09;
 }
 @media screen and (min-width: 425px) {
     .place__title {
