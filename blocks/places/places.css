@@ -7,6 +7,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 50px;
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
     .places {

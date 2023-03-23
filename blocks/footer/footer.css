@@ -21,6 +21,8 @@
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
+        margin: 0 auto;
+        max-width: 1184px;
         max-height: 18px;
         padding: 88px 24px 24px;
       }
