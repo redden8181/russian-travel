@@ -1,5 +1,6 @@
 .lead__caption {
-  align-self: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   margin: 0;
   padding: 8px 0 0 16px;
   font-weight: 400;

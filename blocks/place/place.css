@@ -1,6 +1,9 @@
 .place {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
+  -ms-grid-rows: 35px 25px 46px 25px 1fr;
   grid-template-rows: 35px 46px 1fr ;
   grid-auto-flow: row;
   gap: 25px;
@@ -8,39 +11,132 @@
   margin: 0;
   padding-bottom: 66px;
 }
+.place > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.place > *:nth-child(2) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+.place > *:nth-child(3) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+}
 @media screen and (min-width: 425px) {
     .place {
+        -ms-grid-rows: 50px 46px 1fr ;
         grid-template-rows: 50px 46px 1fr ;
       }
 }
 @media screen and (min-width: 768px) {
     .place {
+        display: -ms-grid;
         display: grid;
+        -ms-grid-columns: 340px 28px auto;
         grid-template-columns: 340px auto;
+        -ms-grid-rows: -webkit-max-content 48px auto;
+        -ms-grid-rows: max-content 48px auto;
+        grid-template-rows: -webkit-max-content auto;
         grid-template-rows: max-content auto;
         grid-auto-flow: column;
-        column-gap: 28px;
+        -webkit-column-gap: 28px;
+           -moz-column-gap: 28px;
+                column-gap: 28px;
         row-gap: 48px;
         margin: 0;
         padding: 0;
       }
 }
+@media screen and (min-width: 768px) {
+    .place > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+      }
+}
+@media screen and (min-width: 768px) {
+    .place > *:nth-child(2) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+      }
+}
+@media screen and (min-width: 768px) {
+    .place > *:nth-child(3) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 3;
+      }
+}
+@media screen and (min-width: 768px) {
+    .place > *:nth-child(4) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 3;
+      }
+}
 @media (min-width: 1024px) {
     .place {
+        display: -ms-grid;
         display: grid;
+        -ms-grid-columns: minmax(-webkit-min-content, 440px) 32px 1fr;
+        -ms-grid-columns: minmax(min-content, 440px) 32px 1fr;
+        grid-template-columns: minmax(-webkit-min-content, 440px) 1fr;
         grid-template-columns: minmax(min-content, 440px) 1fr;
+        -ms-grid-rows: auto auto auto;
         grid-template-rows: auto auto auto;
         grid-auto-flow: column;
-        column-gap: 32px;
+        -webkit-column-gap: 32px;
+           -moz-column-gap: 32px;
+                column-gap: 32px;
         margin: 0;
+      }
+}
+@media (min-width: 1024px) {
+    .place > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+      }
+}
+@media (min-width: 1024px) {
+    .place > *:nth-child(2) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+      }
+}
+@media (min-width: 1024px) {
+    .place > *:nth-child(3) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+      }
+}
+@media (min-width: 1024px) {
+    .place > *:nth-child(4) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 3;
+      }
+}
+@media (min-width: 1024px) {
+    .place > *:nth-child(5) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 3;
+      }
+}
+@media (min-width: 1024px) {
+    .place > *:nth-child(6) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 3;
       }
 }
 @media (min-width: 1280px) {
     .place {
+        display: -ms-grid;
         display: grid;
+        -ms-grid-columns: minmax(-webkit-min-content, 460px) 40px 1fr;
+        -ms-grid-columns: minmax(min-content, 460px) 40px 1fr;
+        grid-template-columns: minmax(-webkit-min-content, 460px) 1fr;
         grid-template-columns: minmax(min-content, 460px) 1fr;
         grid-auto-flow: column;
-        column-gap: 40px;
+        -webkit-column-gap: 40px;
+           -moz-column-gap: 40px;
+                column-gap: 40px;
         margin: 0;
       }
 }

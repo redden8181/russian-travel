@@ -1,9 +1,11 @@
 .place__image {
-  grid-row-start: 3;
+  -ms-grid-row: 3;
+      grid-row-start: 3;
   width: 100%;
   height: 320px;
   padding: 7px 0;
-  object-fit: ;
+  -o-object-fit: ;
+     object-fit: ;
 }
 @media screen and (min-width: 425px) {
     .place__image {
@@ -13,13 +15,16 @@
 @media screen and (min-width: 768px) {
     .place__image {
         padding: 0;
-        grid-row-start: 2;
+        -ms-grid-row: 2;
+            grid-row-start: 2;
+        -ms-grid-row-span: 1;
         grid-row-end: 3;
         height: 340px
       }
 }
 @media (min-width: 1024px) {
     .place__image {
+        -ms-grid-row-span: 2;
         grid-row: span 2;
         height: 440px;
       }

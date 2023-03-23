@@ -1,13 +1,20 @@
 .photo-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 12px;
   margin: 0;
   padding: 64px 5%;
 }
 @media screen and (min-width: 768px) {
     .photo-grid {
+        display: -ms-grid;
         display: grid;
+        -ms-grid-columns: 1fr 16px 1fr;
         grid-template-columns: 1fr 1fr;
         gap: 16px;
         padding: 88px 24px;
