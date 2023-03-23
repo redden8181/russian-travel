@@ -1,6 +1,5 @@
 .intro__title {
   margin: 0;
-  font-family: 'Inter', 'Arial', sans-serif;
   font-weight: 900;
   font-size: 32px;
   line-height: 1.09;
@@ -8,17 +7,23 @@
 }
 @media screen and (min-width: 425px) {
     .intro__title {
-        font-size: 54px;
-        line-height: 58px;
+        font-size: 34px;
+        line-height: 1.08;
       }
 }
-@media (min-width: 769px) {
+@media screen and (min-width: 768px) {
+    .intro__title {
+        font-size: 54px;
+        line-height: 1.07;
+      }
+}
+@media (min-width: 1024px) {
     .intro__title {
         font-size: 54px;
         line-height: 58px;
       }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
     .intro__title {
         font-size: 54px;
         line-height: 58px;

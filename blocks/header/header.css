@@ -1,6 +1,6 @@
 .header {
-  margin: 0;
-  padding: 16px;
+  margin: 0 auto;
+  padding: 16px 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,21 +11,21 @@
       -ms-flex-align: end;
           align-items: flex-end;
 }
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 768px) {
     .header {
-        width: 93.75%;
-        padding: 28px 24px 16px;
+        width: calc(100% - 6.25%);
+        padding: 28px 0 16px;
       }
 }
-@media (min-width: 769px) {
+@media (min-width: 1024px) {
     .header {
-        width: 90.625%;
-        padding: 28px 48px 16px;
+        width: calc(100% - 9.375%);
       }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
     .header {
-        width: 92.5%;
-        padding: 28px 48px 24px;
+        width: 100%;
+        max-width: 1184px;
+        padding-bottom: 24px;
       }
 }

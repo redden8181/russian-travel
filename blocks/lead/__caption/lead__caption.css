@@ -1,28 +1,30 @@
 .lead__caption {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
   margin: 0;
   padding: 8px 0 0 16px;
-  font-family: 'Inter',  'Arial', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 10px;
-  line-height: 0.625%;
+  line-height: 1.4;
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
 @media screen and (min-width: 425px) {
     .lead__caption {
+        padding: 8px 0 0 5%;
+      }
+}
+@media screen and (min-width: 768px) {
+    .lead__caption {
         padding: 8px 0 0 24px;
       }
 }
-@media (min-width: 769px) {
+@media (min-width: 1024px) {
     .lead__caption {
         padding: 8px 0 0 48px;
       }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
     .lead__caption {
-        padding: 8px 0 0 148px;
+        padding: 8px 0 0;
       }
 }

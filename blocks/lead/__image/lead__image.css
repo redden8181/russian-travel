@@ -1,19 +1,15 @@
 .lead__image { 
   margin: 0 auto;
-  max-width: 100%;
+  width: 100%;
+  height: calc(100vw / 1.6);
 }
-@media screen and (min-width: 425px) {
-    .lead__image { 
-        max-width: 100%;
+@media (min-width: 1024px) {
+    .lead__image {
+        max-height: 580px;
       }
 }
-@media (min-width: 769px) {
+@media (min-width: 1280px) {
     .lead__image { 
-        width: 90.625%;
-      }
-}
-@media (min-width: 1025px) {
-    .lead__image { 
-        width: 76.875%;
+        max-height: 615px;
       }
 }

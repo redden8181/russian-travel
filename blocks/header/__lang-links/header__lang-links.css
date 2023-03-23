@@ -3,4 +3,10 @@
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 8px;
+  gap: 18px;
+}
+@media screen and (min-width: 768px) {
+    .header__lang-links {
+        padding-bottom: 6px;
+      }
 }
