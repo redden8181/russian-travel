@@ -7,4 +7,37 @@
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
   text-decoration: none;
+  position: relative;
+  width: 100%;
+  max-width: 1184px;
+  min-height: calc(100vw / 1.6);
+  max-height: 740px;
+  margin: 0 auto;
+  background-image: url(../../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  gap: 16px;
+}
+.cover__link:hover {
+  opacity: .8;
+}
+.cover__link::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__link {
+    gap: 32px;
+  }
 }

@@ -1,7 +1,8 @@
 .page{
   width: 100%;
+  max-width: 100%;
   margin: 0 auto;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Arial', sans-serif;
   color: #fff;
   background: #2A2C2F;
   -webkit-text-size-adjust: 100%;
@@ -10,10 +11,4 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-}
-
-@media (min-width: 1280px) {
-    .page {
-        max-width: 100%;
-      }
 }

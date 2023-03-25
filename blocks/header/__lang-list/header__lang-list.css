@@ -1,0 +1,11 @@
+.header__lang-list {
+  display: flex;
+  gap: 18px;
+  padding: 0;
+  margin: 0 0 8px 0;
+}
+@media screen and (min-width: 768px) {
+    .header__lang-list {
+      margin: 0 0 6px 0;
+      }
+}
