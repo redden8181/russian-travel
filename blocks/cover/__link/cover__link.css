@@ -1,6 +1,7 @@
 .cover__link {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   position: relative;
   text-align: center;
   color: #FFFFFF;
@@ -10,14 +11,14 @@
   position: relative;
   width: 100%;
   max-width: 1184px;
-  min-height: calc(100vw / 1.6);
-  max-height: 740px;
+  height: 740px;
   margin: 0 auto;
-  background-image: url(../../images/cover.jpg);
+  background-image: url(../../../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
   gap: 16px;
+  z-index: 3;
 }
 .cover__link:hover {
   opacity: .8;
@@ -31,9 +32,9 @@
   left: 0;
   background-color: #2A2C2F;
   opacity: 0.3;
+  transition: 0.4s;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
-  transition: 0.4s;
 }
 
 @media screen and (min-width: 768px) {

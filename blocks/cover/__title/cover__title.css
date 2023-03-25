@@ -5,6 +5,7 @@
   font-size: 32px;
   line-height: 1.09;
   color: #fff;
+  z-index: 5;
 }
 
 @media screen and (min-width: 425px) {

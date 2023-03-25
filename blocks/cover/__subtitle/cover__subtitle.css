@@ -6,6 +6,7 @@
   font-size: 14px;
   line-height: 1.14;
   color: #fff;
+  z-index: 5;
 }
 
 @media screen and (min-width: 425px) {
