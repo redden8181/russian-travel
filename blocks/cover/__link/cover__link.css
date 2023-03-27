@@ -10,8 +10,7 @@
   text-decoration: none;
   width: 100%;
   max-width: 1184px;
-  height: calc(100vw / 1.6);
-  max-height: 740px;
+  min-height: 200px;
   margin: 0 auto;
   background-image: url(../../../images/cover.jpg);
   background-repeat: no-repeat;
@@ -39,6 +38,15 @@
 
 @media screen and (min-width: 768px) {
   .cover__link {
+    min-height: 480px;
     gap: 32px;
+  }
+}@media screen and (min-width: 1024px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}@media screen and (min-width: 1280px) {
+  .cover__link {
+    min-height: 740px;
   }
 }
