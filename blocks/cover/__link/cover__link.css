@@ -10,7 +10,8 @@
   text-decoration: none;
   width: 100%;
   max-width: 1184px;
-  min-height: 740px;
+  height: calc(100vw / 1.6);
+  max-height: 740px;
   margin: 0 auto;
   background-image: url(../../../images/cover.jpg);
   background-repeat: no-repeat;
